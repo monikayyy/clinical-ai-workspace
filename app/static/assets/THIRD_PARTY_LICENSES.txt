@@ -1,0 +1,37 @@
+React 18.2.0 / ReactDOM 18.2.0 / Scheduler
+Copyright (c) Facebook, Inc. and its affiliates.
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The included offline-built frontend contains React production modules from the
+build environment's preinstalled JupyterLab distribution. JSX source is supplied
+and can be rebuilt with the pinned React dependencies using frontend/build.mjs.
+Inline SVG icons in frontend/src/icons.jsx are original project code.
+No font files or model weights are distributed in this project.
+Python and build dependencies retain their respective upstream licenses.
+
+Synthetic data note
+-------------------
+The bundled synthetic-data directory is generated locally by this project and
+contains no redistributed Synthea, SMART Health IT, CMS, MIMIC, or other third-
+party patient records. app/synthea_adapter.py is an interoperability utility;
+users remain responsible for the license and access terms of any source dataset
+they choose to convert.

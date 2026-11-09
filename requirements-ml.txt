@@ -1,0 +1,6 @@
+-r requirements.txt
+# Optional, local-only retrieval experiments.
+fastembed==0.9.1
+langgraph==1.2.18
+langchain-core==1.7.0
+sentence-transformers==6.2.0

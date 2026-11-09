@@ -1,0 +1,12 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+cryptography>=44,<48
+argon2-cffi>=23.1,<26
+openai==1.109.1
+httpx>=0.27,<1
+pypdf>=5.1,<7
+pypdfium2>=4.30,<6
+Pillow>=11,<13
+python-dotenv>=1,<2
+numpy>=1.26,<3
+pytest>=8,<10

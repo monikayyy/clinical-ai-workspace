@@ -1,0 +1,52 @@
+{
+  "benchmark_revision": "hard-retrieval-v1",
+  "documents": 745,
+  "fts5": {
+    "backend": "fts5",
+    "by_category": {
+      "encounter_summary": {
+        "mrr": 1.0,
+        "questions": 300,
+        "recall_at_5": 1.0
+      },
+      "medication_reconciliation": {
+        "mrr": 1.0,
+        "questions": 300,
+        "recall_at_5": 1.0
+      },
+      "observation_report": {
+        "mrr": 0.8917,
+        "questions": 300,
+        "recall_at_5": 0.9333
+      }
+    },
+    "latency_ms_mean": 0.445,
+    "latency_ms_total": 400.599,
+    "mrr": 0.9639,
+    "ndcg_at_5": 0.9674,
+    "patient_leakage_count": 0,
+    "recall_at_1": 0.9556,
+    "recall_at_3": 0.9667,
+    "recall_at_5": 0.9778,
+    "source_kind_misses": 20,
+    "supported_questions": 900
+  },
+  "hybrid": null,
+  "privacy": {
+    "external_tracing_allowed": false,
+    "local_files_only": true,
+    "patient_scope_before_embedding": true,
+    "persistent_vector_store": false,
+    "remote_embeddings_allowed": false,
+    "remote_reranking_allowed": false,
+    "remote_vector_db_allowed": false
+  },
+  "promotion": {
+    "automatic_promotion_allowed": false,
+    "promote": false,
+    "reason": "semantic_candidate_not_available"
+  },
+  "questions": 1100,
+  "revision": "hybrid-retrieval-eval-v3",
+  "supported_questions": 900
+}
